@@ -33,10 +33,10 @@ WebDriver driver;
 		driver.findElement(locality).sendKeys("rajajinagar");
 		Robot r=new Robot();
 		r.keyPress(KeyEvent.VK_KP_DOWN);
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyRelease(KeyEvent.VK_KP_DOWN);
 		r.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyRelease(KeyEvent.VK_ENTER);
 		
 	
