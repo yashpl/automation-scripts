@@ -13,7 +13,7 @@ public class location {
 
 		@Test
 		public void verifyvalidlocation() throws InterruptedException, AWTException {
-			System.setProperty("webdriver.chrome.driver","/home/osboxes/Downloads/chromedriver");
+			System.setProperty("webdriver.chrome.driver","chromedriver");
 			WebDriver driver=new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.get("http://v2.20160301.testing.bro4u.com/v2/bro4u-webapp-v2/");
